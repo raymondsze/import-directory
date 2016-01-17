@@ -35,6 +35,9 @@
 <p>The logic behind is just grab the 'default' out and assign back to corresponding attribute after require-directory, and we name it as import-directory.</p>
 <p>Note: There the object that export other than <b>export default</b> like <b>export {... as ...}</b> or just <b>export ....</b> will be ignored. </p>
 
+## How to use
+<p> as usual as <a href="import-directory">require-directory</a> but use <b>import importDirectory from 'import-directory';</b> instead of <b>require('require-directory');</b> </p>
+
 ## LICENSE
 The MIT License (MIT)
 
