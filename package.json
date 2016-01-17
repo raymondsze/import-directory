@@ -1,6 +1,6 @@
 {
   "name": "import-directory",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": false,
   "description": "Support use import instead of export for require-directory",
   "main": "build/index.js",
