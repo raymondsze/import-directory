@@ -1,6 +1,6 @@
 {
   "name": "import-directory",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "Support use import instead of export for require-directory",
   "main": "build/index.js",
@@ -49,7 +49,9 @@
     "require-directory": "^2.1.1"
   },
   "peerDependencies": {
-    "require-directory": ">=2.1.1",
-    "hapi": ">=8.0.0"
+    "require-directory": ">=2.1.1"
+  },
+  "dependencies": {
+    "lodash": "^4.0.0"
   }
 }
