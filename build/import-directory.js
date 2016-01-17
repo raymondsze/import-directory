@@ -4,7 +4,7 @@
 * @Author: Sze Ka Wai Raymond (FakeC)
 * @Date:   2016-01-17 17:27:23
 * @Last Modified by:   Sze Ka Wai Raymond (FakeC)
-* @Last Modified time: 2016-01-17 19:56:56
+* @Last Modified time: 2016-01-17 20:14:12
 */
 const _ = require('lodash');
 
@@ -15,7 +15,7 @@ function preVisit(obj) {
 module.exports = function () {
 	// find the argument that is option
 	const index = 1;
-	const options = {};
+	let options = {};
 
 	for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
 		args[_key] = arguments[_key];
