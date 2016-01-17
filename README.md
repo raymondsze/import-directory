@@ -1,11 +1,11 @@
 ## import-directory [![Build Status](https://travis-ci.org/raymondsze/import-directory.svg)](https://travis-ci.org/raymondsze/import-directory.svg?branch=master)
-<p>Same as <a href="import-directory">require-directory</a></p>
+<p>Same as <a href="https://github.com/troygoode/node-require-directory">require-directory</a></p>
 <p>But support to use import and export default syntax in your file inside the directory.</p>
 ## Install
 <p><b>npm install --save require-directory import-directory</b></p>
 
 ## How it works
-<p>If we use export default inside the directory with <a href="import-directory">require-directory</a>, the result will become like that..</p>
+<p>If we use export default inside the directory with <a href="https://github.com/troygoode/node-require-directory">require-directory</a>, the result will become like that..</p>
 ```javascript
 {
 	model1: {
@@ -32,7 +32,7 @@
 	}
 }
 ```
-<p>The logic behind is just change the 'visit' option provided by <a href="import-directory">require-directory</a>.</p>
+<p>The logic behind is just change the 'visit' option provided by <a href="https://github.com/troygoode/node-require-directory">require-directory</a>.</p>
 <p>Note: There the object that export other than <b>export default</b> like <b>export {... as ...}</b> or just <b>export ....</b> will be ignored. </p>
 
 ## How to use
