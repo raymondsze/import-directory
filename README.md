@@ -36,7 +36,7 @@
 <p>Note: There the object that export other than <b>export default</b> like <b>export {... as ...}</b> or just <b>export ....</b> will be ignored. </p>
 
 ## How to use
-<p> as usual as <a href="import-directory">require-directory</a>, but change the import statement
+<p> as usual as <a href="https://github.com/troygoode/node-require-directory">require-directory</a>, but change the import statement
 ```javascript
 import importDirectory from 'import-directory';
 export default importDirectory(module);
